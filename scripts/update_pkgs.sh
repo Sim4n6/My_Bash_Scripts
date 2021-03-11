@@ -3,6 +3,8 @@
 # A Bash script to update all packages.
 # Author: ALJI Mohamed (aka Sim4n6)
 
+figlet "A Bash script to update all packages."
+
 # Installation: 
 # - place my scripts in /usr/local/bin
 # - update 'secure_path' in /etc/sudoers
