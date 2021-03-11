@@ -3,12 +3,15 @@
 # nombre of connected users.
 # Author: ALJI Mohamed
 # 
+declare -a logged_in_users
+logged_in_users=( "$(w -hu | cut -d" " -f1)" );
+declare -p logged_in_users
 
-nbr_users=$(w -hu |wc -l)
-declare -ri nbr_users
+if [[ ${#logged_in_users[*]} == 1 ]]; then echo "A single user: $(whoami) !";
 
-if [[ $nbr_users == 1 ]]; then echo "A single user: $(whoami) !";
-else
-echo "DANGER ! connected users are: "; 
-w -hu | cut -d" " -f1
+echo "DANGER ! ${#logged_in_users[*]} are connected right now ! "; 
+for ((i=0; i<${#logged_in_users[*]}; i++)) do
+    echo ${logged_in_users[i]}
+done
 fi 
+
