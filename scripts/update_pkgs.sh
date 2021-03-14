@@ -10,8 +10,13 @@ figlet "A Bash script to update all packages."
 # - update 'secure_path' in /etc/sudoers
 
 if [[ $(id -u) != 0 ]]; then 
-    echo "Please, run me with sudo powers !"
+    echo "[-] Please, run me with sudo powers !"
     exit 1
+fi
+
+if ! ping -c 3 8.8.8.8 &> /dev/null; then 
+    echo "[-] Connectivity problem, please, check your connection."
+    exit 2
 fi
 
 echo "[+] Update all packages v0.1"
