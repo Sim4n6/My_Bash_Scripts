@@ -17,7 +17,7 @@ fi
 for f in "${directory}"/*; do
     f_md5=$(md5sum "$f"|cut -d" " -f1)
     if [ "$f_md5" == "$md5" ];then
-        echo "The file $(basename "$f") matches the MD5 hash."
+        echo "[+] The file $(basename "$f") matches the MD5 hash."
         rm -i "$f"
     fi    
 done

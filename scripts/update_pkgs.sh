@@ -14,6 +14,7 @@ if [[ $(id -u) != 0 ]]; then
     exit 1
 fi
 
+echo "[+] Checking connectivity to internet ..."
 if ! ping -c 3 8.8.8.8 &> /dev/null; then 
     echo "[-] Connectivity problem, please, check your connection."
     exit 2
