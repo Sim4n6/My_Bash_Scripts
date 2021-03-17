@@ -1,0 +1,106 @@
+3.3 Turning Commands into a Script
+Weight: 4
+Description: Turning repetitive commands into simple scripts.
+Key Knowledge Areas:
+•	Basic shell scripting
+•	Awareness of common text editors (vi and nano)
+The following is a partial list of the used files, terms and utilities:
+•	#! (shebang)
+•	/bin/bash
+•	Variables
+•	Arguments
+•	for loops
+•	echo
+•	Exit status
+4.3 Where Data is Stored 
+Weight: 3
+Description: Where various types of information are stored on a Linux system.
+Key Knowledge Areas:
+•	Programs and configuration
+•	Processes
+•	Memory addresses
+•	System messaging
+•	Logging
+The following is a partial list of the used files, terms and utilities:
+•	ps, top, free
+•	syslog, dmesg
+•	/etc/, /var/log/
+•	/boot/, /proc/, /dev/, /sys/
+
+2.1 Command Line Basics
+Weight: 3
+Description: Basics of using the Linux command line.
+Key Knowledge Areas:
+•	Basic shell
+•	Command line syntax
+•	Variables
+•	Quoting
+The following is a partial list of the used files, terms and utilities:
+•	Bash
+•	echo
+•	history
+•	PATH environment variable
+•	export
+•	type
+3.2 Searching and Extracting Data from Files
+Weight: 3
+Description: Search and extract data from files in the home directory.
+Key Knowledge Areas:
+•	Command line pipes
+•	I/O redirection
+•	Basic Regular Expressions using ., [ ], *, and ?
+The following is a partial list of the used files, terms and utilities:
+•	grep
+•	less
+•	cat, head, tail
+•	sort
+•	cut
+•	wc
+2.2 Using the Command Line to Get Help
+Weight: 2
+Description: Running help commands and navigation of the various help systems.
+Key Knowledge Areas:
+•	Man pages
+•	Info pages
+The following is a partial list of the used files, terms and utilities:
+•	man
+•	info
+•	/usr/share/doc/
+•	locate
+2.3 Using Directories and Listing Files
+Weight: 2
+Description: Navigation of home and system directories and listing files in various locations.
+Key Knowledge Areas:
+•	Files, directories
+•	Hidden files and directories
+•	Home directories
+•	Absolute and relative paths
+The following is a partial list of the used files, terms and utilities:
+•	Common options for ls
+•	Recursive listings
+•	cd
+•	. and ..
+•	home and ~
+2.4 Creating, Moving and Deleting Files
+Weight: 2
+Description: Create, move and delete files and directories under the home directory.
+Key Knowledge Areas:
+•	Files and directories
+•	Case sensitivity
+•	Simple globbing
+The following is a partial list of the used files, terms and utilities:
+•	mv, cp, rm, touch
+•	mkdir, rmdir
+3.1 Archiving Files on the Command Line
+Weight:  2
+Description: Archiving files in the user home directory.
+Key Knowledge Areas:
+•	Files, directories
+•	Archives, compression
+The following is a partial list of the used files, terms and utilities:
+•	tar
+•	Common tar options
+•	gzip, bzip2, xz
+•	zip, unzip
+
+
