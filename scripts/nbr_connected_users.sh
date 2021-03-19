@@ -13,7 +13,7 @@ if [[ ${#logged_in_users[*]} == 1 ]]; then echo "A single user: $(whoami) !";
 else
 echo "DANGER ! ${#logged_in_users[*]} are connected right now ! "; 
 for ((i=0; i<${#logged_in_users[*]}; i++)) do
-    echo ${logged_in_users[i]}
+    echo "${logged_in_users[i]}"
 done
 fi 
 
