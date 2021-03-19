@@ -22,9 +22,7 @@ jobs:
     
     steps:
      - name: updating dependencies
-       run: | 
-            apt update
-            apt upgrade
+       run: apt update & apt upgrade
       
      - name: install shellcheck
        run: apt install shellcheck
