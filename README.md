@@ -1,4 +1,4 @@
-# My_Bash_Scripts
+# My_Bash_Scripts ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/sim4n6/My_Bash_Scripts/CI/main)
 my personal bash scripts repository.
 
 1. **update_pkgs.sh** : a bash script to update all packages using apt.
