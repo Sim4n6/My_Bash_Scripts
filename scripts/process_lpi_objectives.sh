@@ -39,3 +39,5 @@ for e in "${topics[@]}";do
     sqlite3 topics.db "$sql"
     i=$(( $i+1 ))
 done;
+
+rm topics_title.txt weights.txt descriptions.txt
