@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Game of guessing the random number.
+# Game for guessing a previously set number.
 
 echo "Guess game" 
 echo "in 5 steps only."
@@ -15,7 +15,7 @@ for i in {1..5}; do
     if [ "$guess_num" -eq "$random_number" ]; then
         echo "Success !"
         break
-    elif [ "$i" -eq 5 ]; then
+    elif [ $i -eq 5 ]; then
         echo "End, sorry you failed it was $random_number"
 
         break
